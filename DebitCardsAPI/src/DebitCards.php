@@ -2,11 +2,18 @@
 namespace DebitCardsAPI;
 
 use Dotenv\Dotenv;
-
+/**
+ * Class, representing DebitCards API.
+ */
 class DebitCards {
+
     public Countries $countries;
     public Cards $cards;
 
+    /**
+     * DebitCards constructor
+     * 
+     */
     public function __construct(){
         $dotenv = Dotenv::createImmutable(__DIR__ . "/../");
         $dotenv->load();
@@ -18,5 +25,6 @@ class DebitCards {
 
         $this->countries = new Countries($api);
         $this->cards = new Cards($api);
+
     }
 }
