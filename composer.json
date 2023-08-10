@@ -1,0 +1,14 @@
+{
+    "name":"jav1dan/debitcards-api",
+    "description":"API for debitcards",
+    "autoload":{
+        "psr-4": {
+            "DebitCardsAPI\\":"src/"
+        }
+    },
+    "version": "0.0.1",
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
