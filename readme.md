@@ -2,6 +2,6 @@
 Решение требует задавать в .env файле параметры 
 
 
-AUTH_KEY=
-BASE_URL=
+AUTH_KEY=  
+BASE_URL=  
 
